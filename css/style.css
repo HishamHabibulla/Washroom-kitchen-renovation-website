@@ -1,0 +1,275 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+/* a,a:hover{
+    text-decoration: none;
+} */
+
+.blue{
+    color: blue !important;
+    text-decoration: underline;
+}
+
+ul,ol{
+    list-style: none;
+}
+
+/* ==========================================================
+                    pre banner part start
+   ========================================================== */
+   #abc{
+       width: 85%;
+       background-color: rgb(182, 174, 174);
+       padding-bottom: 0px;
+       margin: 0 auto;
+   }
+
+ #pre-banner-part .logo img{
+      width: 160px;
+      
+}
+
+.navbar{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+body{
+    background: #fff;
+}
+
+#pre-banner-part{
+    padding: 20px 0;
+}
+
+.new-img img{
+    width: 250px;
+    margin-bottom: 15px;
+    margin-top: 10px;
+    border: 1px solid #000;
+
+}
+
+.new-img{
+    
+    
+}
+
+
+
+.nav-link{
+    padding: 10px 20px !important;
+    font-family: 'Roboto Condensed', sans-serif !important;
+    color: #000;
+    font-size: 15px;
+    font-weight: 400;
+    padding-right: 0px !important;
+    
+}
+
+.navbar-brand{
+    color: #000 !important;
+    font-size: 20px !important;
+    font-weight: 600 !important;
+    font-family: 'Roboto Condensed', sans-serif !important;
+}
+
+.title-main p{
+    color: #000 !important;
+    font-size: 20px !important;
+    font-weight: 600 !important;
+    font-family: 'Roboto Condensed', sans-serif !important;
+    margin-bottom: 0 !important;
+}
+
+.link{
+    color: #000 !important;
+    font-size: 18px !important;
+    font-weight: 400 !important;
+    font-family: 'Roboto Condensed', sans-serif !important; 
+}
+
+/* ==========================================================
+                    pre banner part end
+   ========================================================== */
+
+/* ==========================================================
+                    about part start
+   ========================================================== */
+
+#about-part{
+    margin-top: 20px;
+}
+
+#about-part .slider{
+    margin-bottom: 20px;
+}
+
+
+#about-part .slider-item img{
+    width: 750px;
+    height: 440px;
+}
+
+#about-part .slider .prev{
+    width: 50px;
+    height: 50px;
+    background: transparent;
+    color: #000;
+    border: 1px solid #000;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 18px;
+    transform: translateY(-50%);
+    z-index: 1;
+    cursor: pointer;
+    font-size: 25px;
+}
+
+#about-part .slider .next{
+    width: 50px;
+    height: 50px;
+    background: transparent;
+    color: #000;
+    border: 1px solid #000;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    right: 18px;
+    transform: translateY(-50%);
+    cursor: pointer;
+    font-size: 25px;
+}
+
+#about-part .text{
+    background: #fff;
+    border: 1px solid #000;
+    padding: 12px 28px;
+    font-family: 'Roboto Condensed', sans-serif;
+    
+}
+
+#about-part .text h3{
+    margin-top: 21px;
+    margin-bottom: 18px;
+}
+
+.regards{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    color: #000;
+    margin-bottom: 7px !important;
+}
+
+.fg{
+    margin-top: 15px;
+}
+
+.projects h3{
+    font-family: 'Roboto Condensed', sans-serif;
+    margin-bottom: 0px !important;
+    margin-top: 8px;
+    font-weight: 400;
+    
+}
+
+.projects{
+    background-color: #fff;
+    border: 1px solid #000;
+    padding: 12px;
+}
+
+.lt{
+    margin-bottom: 20px;
+}
+
+/* .ggg{
+    margin-top: 28px;
+    margin-bottom: 38px;
+} */
+
+.picture{
+    border: 1px solid #000;
+    padding: 5px;
+    display: inline-block;
+    margin: 30px 0;
+}
+
+.bottom{
+    margin-bottom: 8px !important;
+    line-height: 27px;
+}
+
+.hei{
+    margin-bottom: 20px;
+}
+
+.yuma{
+    line-height: 27px;
+}
+
+.mitu{
+    border: 1px solid #000;
+}
+
+
+/* ==========================================================
+                    about part end
+   ========================================================== */
+
+/* ==============================================================
+                        info part start
+   ============================================================== */
+
+
+#info-part{
+    padding: 10px 0;
+    background-color: rgb(253, 249, 249);
+}
+
+.info{
+    text-align: right;
+}
+
+
+
+
+/* ==============================================================
+                        info part end
+   ============================================================== */
+
+
+   /* ===============================================================
+                       copyright part start
+      =============================================================== */
+
+#copyright{
+    padding: 15px 0;
+    background-color: rgb(252, 252, 252);
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #000;
+}
+
+#copyright p{
+    margin-bottom: 0 !important;
+}
+
+
+
+
+/* ===============================================================
+                       copyright part end
+      =============================================================== */

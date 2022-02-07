@@ -1,0 +1,17 @@
+.height{
+    height: 200px;
+}
+
+h2{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    color: #000;
+}
+
+label{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #000; 
+}

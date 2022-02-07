@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+<meta content="utf-8" http-equiv="encoding">
+
+</head>
+<link rel="stylesheet" href="css/email.css">
+<body>
+
+<h2>Send e-mail to calltgbs@gmail.com:</h2>
+
+<!--<form action="mailto:calltgbs@gmail.com?subject=Music%20Lessons&body=I'm%20interested%20in%20learning%20to%20play" method="post" enctype="text/plain">-->
+<form>
+<label>Subject: </label> <br>
+<input type="text" id="subject" name="subject" size="70" ><br><br>
+<label>Comment: </label> <br>
+<!-- <input class="height" type="text" id="comment" name="comment" size="70"  > -->
+<textarea name="comment" id="comment" cols="53" rows="15"></textarea>
+<br><br>
+<!--
+<input type="submit" value="Send">
+<input type="reset" value="Reset">
+-->
+</form>
+<button id="sender">Send email</button>
+
+<!--<script src="js/email.js" type="javascript">-->
+<script>
+document.getElementById('sender').addEventListener("click", sendEmail);
+
+function GetSubject() {
+  var subject = document.getElementById('subject').value + '\n';
+  return subject;
+};
+
+function GetComments() {
+  var comments = document.getElementById('comment').value + '\n';
+  return comments;
+};
+
+function sendEmail() {
+  var email = 'calltgbs@gmail.com';
+  var subject = GetSubject();
+  var comments = GetComments();
+  var mailto_link = 'mailto:' + email + '?subject=' + subject + '&body=' + encodeURIComponent(comments);
+  window.location.href = mailto_link;
+}    
+</script>
+
+</script>
+</body>
+</html>
